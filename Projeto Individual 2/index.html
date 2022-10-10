@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/lock.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Codificador</title>
+</head>
+
+<body>
+    <main>
+
+        <div id="container">
+            <h1 class="titulo">Codificador e decodificador</h1>
+            
+            <form action="#">
+                <textarea name="caixa-msg" id="caixa-msg" cols="50" rows="4"
+                    placeholder="Digite sua mensagem..."></textarea>
+
+                <label id="selecione" for="select"></label>
+                <select name="select" class="select" id="select">
+                    <option value="base64">Base64</option>
+                    <option value="cifra">Cifra de César</option>
+                </select>
+                <div class="chave-container">
+                    <label class="chave" for="range">Digite a Chave</label>
+                    <div class="slider-range">
+                        <input type="number" value="1" id="rngnb" min="1" max="26" oninput="range.value=value" />
+                    </div>
+                </div>
+
+                <div class="radio-button">
+                    <div class="radio">
+                        <input type="radio" name="codificar" id="codificar" value="codificar" checked />
+                        <label for="codificar">Codificar</label>
+                    </div>
+
+                    <div class="radio">
+                        <input type="radio" name="codificar" id="decodificar" value="decodificar" />
+                        <label for="decodificar">Decodificar</label>
+                    </div>
+                </div>
+
+                <textarea id="resultado" class="mensagem resultado" cols="50" rows="4" readonly
+                    placeholder="Mensagem Criptografada"></textarea>
+                <div class="btn">
+                    <button>Codificar mensagem!</button>
+                </div>
+            </form>
+        </div>
+    </main> 
+     
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+    </script>
+</body>
+
+</html>
