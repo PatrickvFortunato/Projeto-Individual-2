@@ -7,7 +7,7 @@ O RESILIADATA demanda um banco de dados sólido para armazenar informações cru
 
 ## 🖥️ Diagramas 
 
-Este projeto envolve o desenvolvimento de um banco de dados fictício para o sistema RESILIADATA, desempenhando um papel crucial na análise estratégica das tecnologias adotadas pelas nossas empresas parceiras e no mapeamento dos seus colaboradores.
+Este projeto envolve o desenvolvimento de um banco de dados fictício para o sistema RESILIADATA, desempenhando um papel crucial na análise estratégica das tecnologias adotadas pelas nossas empresas parceiras e no mapeamento dos seus colaboradores.<br><br>
 **LÓGICO**
 ![](/img/logico.png)
 
@@ -61,8 +61,8 @@ Este projeto envolve o desenvolvimento de um banco de dados fictício para o sis
 4. **Simule 2 registros para cada entidade.**
 
 **Empresa:**
-- ID: 1, Nome: "Casas Venâncio", Contato: "+552196532-xxxx", tecnologia_id: "3", colaborador_id: "1,3,4,7,9"
-- ID: 2, Nome: "Ana Eletro", Contato: "+551198653-xxxx", tecnologia_id: "4", colaborador_id: "2,5,6,8"
+- ID: 1, Nome: "Casas Venâncio", Contato: "+552196532-xxxx", tecnologia_id: "2", colaborador_id: "1,3,4,7,9"
+- ID: 2, Nome: "Ana Eletro", Contato: "+551198653-xxxx", tecnologia_id: "1", colaborador_id: "2,5,6,8"
 
 **Tecnologia:**
 - ID: 1, Nome: "PDV", Área: "Vendas"
