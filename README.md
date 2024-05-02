@@ -48,7 +48,7 @@ Este projeto envolve o desenvolvimento de um banco de dados fictício para o sis
 - Área (Texto)
 
 **Colaborador:**
-- CPF_ID (Chave Primária, Inteiro)
+- ID (Chave Primária, Inteiro)
 - Nome (Texto)
 - Posição (Texto)
 - Salário (Float)
